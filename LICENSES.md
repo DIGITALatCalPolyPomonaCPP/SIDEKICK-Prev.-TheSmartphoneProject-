@@ -28,3 +28,5 @@ The new explanatory READMEs and provenance records identify source material but 
 ## Project documentation
 
 No explicit license statement was found in the supplied project-documentation files under `documentation/`, including the proposals, presentations, budget workbook, MEP proposal, or constitution and bylaws. They remain attributed to their authors and organizations and are not relicensed by inclusion in this repository. Embedded third-party images, product information, datasheet excerpts, and linked material may have separate rights and terms.
+
+The project photograph under `documentation/media/` was supplied directly for this consolidation without an explicit license statement. Its inclusion does not grant reuse rights beyond those provided by the applicable rights holder or law.

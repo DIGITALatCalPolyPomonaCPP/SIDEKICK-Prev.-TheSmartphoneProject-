@@ -2,6 +2,14 @@
 
 **SIDEKICK, previously named TheSmartphoneProject, is a student-led effort at DIGITAL @ Cal Poly Pomona to design a modular smartphone around an FPGA-based computing platform.** It treats the phone as one integrated product spanning programmable logic, circuit design, embedded software, operating systems, sensing, user interaction, mechanical design, and thermal engineering.
 
+<p align="center">
+  <a href="https://photos.app.goo.gl/fKSVxjnxUvrLaF7E6">
+    <img src="documentation/media/sidekick-fpga-mainboard-prototype.jpg" alt="SIDEKICK FPGA smartphone mainboard prototype" width="620">
+  </a>
+</p>
+
+<p align="center"><em>FPGA smartphone mainboard prototype. <a href="https://photos.app.goo.gl/fKSVxjnxUvrLaF7E6">View the project photo album.</a></em></p>
+
 This repository consolidates the project's previously distributed engineering record. It contains original design files, subsystem iterations, planning documents, curricula, and project updates. It is an archival engineering snapshot—not a claim that every subsystem reached production readiness or that the files currently assemble into a finished phone.
 
 ## Project Definition

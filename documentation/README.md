@@ -9,5 +9,6 @@ This directory preserves original planning, teaching, financial, and organizatio
 | [Curriculum and mini-projects](curriculum/) | Operating-systems and SoC teaching decks; thermometer and fingerprint-sensor mini-projects |
 | [Financials](financials/) | Budget planning, submitted/final proposals, purchase planning, and PCB/system BOM worksheets |
 | [Organization](organization/) | DIGITAL project proposal for MEP and constitution/bylaws |
+| [Media](media/) | Project photographs used in the repository overview and the external project album |
 
 Each collection includes a `PROVENANCE.md` and `SHA256SUMS` file. The same Hatchery PDF supplied again on 2026-09-23 matched the existing archived copy byte-for-byte and was not duplicated. Two supplied MEP proposal files had identical document content and differed only in Office metadata; the canonical filename is retained once and both source filenames are recorded.

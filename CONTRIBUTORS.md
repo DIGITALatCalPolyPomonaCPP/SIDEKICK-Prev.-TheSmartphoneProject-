@@ -5,7 +5,7 @@ This index combines author metadata from the imported source repositories with a
 | Contributor | GitHub identity | Recorded workstream(s) |
 | --- | --- | --- |
 | SunnyYoshimitsu | [@SunnyYoshimitsu](https://github.com/SunnyYoshimitsu) | System on Module (FPGA Main Board) and Peripheral Daughter Board |
-| Max Gross | [@pixelatedknight27]((https://github.com/pixelatedknight27)) | System on Module (FPGA Main Board) and Peripheral Daughter Board |
+| Max Gross | [@pixelatedknight27](https://github.com/pixelatedknight27) | System on Module (FPGA Main Board) and Peripheral Daughter Board |
 | Ethan Oliver Wong | [@CondescendingCottageCow](https://github.com/CondescendingCottageCow) | FPGA main board and peripheral board |
 | Anish Chinnakonda | [@anishc-AC](https://github.com/anishc-AC) | Haptics and fingerprint sensor |
 | Angelo Duenas | [@AngeloDuenas](https://github.com/AngeloDuenas) | Haptics and fingerprint sensor |
