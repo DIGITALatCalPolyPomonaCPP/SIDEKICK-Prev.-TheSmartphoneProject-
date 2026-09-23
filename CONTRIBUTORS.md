@@ -13,7 +13,7 @@ This index combines author metadata from the imported source repositories with a
 | Logan Knip | [@llknip](https://github.com/llknip) | Mechanical enclosure work and ambient-light sensor |
 | Russell Chung | [@ARussellChung](https://github.com/ARussellChung) | Mechanical phone models |
 | Mason Tran | [@studentmtran-lab](https://github.com/studentmtran-lab) | IMU board iterations; source commit identity `masontran44` |
-| Oscar Cao | Profile not supplied | IMU board iterations |
+| Oscar Cao |[@CondescendingCottageCow](https://github.com/CondescendingCottageCow) | IMU board iterations |
 | Eryn Chen | [@eryn-chen](https://github.com/eryn-chen) | IMU board iterations |
 | Lisette Santa | Profile not supplied | IMU board iterations |
 | Allen Nguyen | [@Allen2331](https://github.com/Allen2331) | IMU board iterations |
