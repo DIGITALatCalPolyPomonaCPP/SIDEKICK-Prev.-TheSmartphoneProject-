@@ -1,10 +1,10 @@
 # SIDEKICK — The Smartphone Project
 
-**SIDEKICK, previously TheSmartphoneProject, is a student-led effort at DIGITAL @ Cal Poly Pomona to design a modular smartphone around an FPGA-based computing platform.** It treats the phone as one integrated product spanning programmable logic, circuit design, embedded software, operating systems, sensing, user interaction, mechanical design, and thermal engineering.
+**TheSmartphoneProject (Now, SIDEKICK), is a student-led effort at DIGITAL @ Cal Poly Pomona to design a modular smartphone around an FPGA-based computing platform.** It treats the phone as one integrated product spanning programmable logic, circuit design, embedded software, operating systems, sensing, user interaction, mechanical design, and thermal engineering.
 
 This repository consolidates the project's previously distributed engineering record. It contains original design files, subsystem iterations, planning documents, curricula, and project updates. It is an archival engineering snapshot—not a claim that every subsystem reached production readiness or that the files currently assemble into a finished phone.
 
-## Project definition
+## Project Definition
 
 The project aims to engineer a working, custom-built mobile-device prototype whose central processing and hardware-control functions are implemented with field-programmable logic. Inspired by modern mobile architecture and open-source hardware, the team uses tools including KiCad, SolidWorks, ANSYS, AMD Vivado, and OrCAD to expose parts of the system that are normally hidden inside closed silicon and proprietary product stacks.
 
@@ -12,7 +12,7 @@ The intended phone should be comfortable to hold, intuitive to navigate, respons
 
 As an educational platform, the phone gives students a way to follow a complete system from physical circuits and programmable logic through hardware interfaces, drivers, the operating system, and the user experience. The objective is not only a device, but a reusable foundation for learning, experimentation, repairability, and later product iterations.
 
-## Planned operational architecture
+## Planned Operational Architecture
 
 The system concept separates the FPGA motherboard from modular peripheral hardware. Custom logic moves device data through controller and buffering stages into an AXI-based system fabric, where software drivers expose it to the operating system and user interface.
 
