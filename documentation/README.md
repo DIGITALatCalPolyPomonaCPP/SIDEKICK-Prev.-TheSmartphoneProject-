@@ -1,23 +1,13 @@
 # Project documentation
 
-This directory preserves project-level narrative and planning documents that explain the purpose, organization, and intended development path of the Smartphone Project.
+This directory preserves original planning, teaching, financial, and organizational records supplied by project maintainer Russell Chung. The files are stored unchanged; descriptions below are an index, not a revision of the source material.
 
-## Proposals
+| Collection | Contents |
+| --- | --- |
+| [Proposals](proposals/) | Phase I interview/application notes and the 13-page Learn Through Discovery Projects Hatchery proposal |
+| [Project updates](project-updates/) | Phase II planning and budget presentation; Phase III hardware and thermals/enclosure updates |
+| [Curriculum and mini-projects](curriculum/) | Operating-systems and SoC teaching decks; thermometer and fingerprint-sensor mini-projects |
+| [Financials](financials/) | Budget planning, submitted/final proposals, purchase planning, and PCB/system BOM worksheets |
+| [Organization](organization/) | DIGITAL project proposal for MEP and constitution/bylaws |
 
-### Smartphone Education: Building a Modular Student-Designed Smartphone
-
-[Open the Hatchery proposal](proposals/Smartphone%20Education_%20Building%20a%20Modular%20Student-Designed%20Smartphone%20-%20The%20Smartphone%20Project%20_%20CPP%20Projects%20Hatchery.pdf)
-
-This 13-page proposal was prepared for the Learn Through Discovery Projects Hatchery at California State Polytechnic University, Pomona. It presents:
-
-- the educational case for student-led smartphone development;
-- an FPGA-centered, modular, repairable platform concept;
-- six technical phases from planning through final handoff;
-- SMART goals and measurements for success;
-- team roles and qualifications;
-- a three-milestone budget totaling $7,250; and
-- supporting references.
-
-The title page credits Sunny Nguyen, Russell Chung, Viren Kumar, Boi Hoanh Lam, Andy Zhang, Izaiah Ortiz, Nathan Alquicira, Angelo Duenas, and Chris Zambrana. It names Dr. Mohamed El Hadedy of the Department of Electrical & Computer Engineering as faculty mentor.
-
-The PDF is preserved byte-for-byte as supplied by Russell Chung on 2026-09-23. See [`proposals/PROVENANCE.md`](proposals/PROVENANCE.md) for its checksum and source details.
+Each collection includes a `PROVENANCE.md` and `SHA256SUMS` file. The same Hatchery PDF supplied again on 2026-09-23 matched the existing archived copy byte-for-byte and was not duplicated. Two supplied MEP proposal files had identical document content and differed only in Office metadata; the canonical filename is retained once and both source filenames are recorded.

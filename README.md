@@ -21,7 +21,7 @@ This repository consolidates the project's previously distributed engineering re
 
 ## Project documentation
 
-The [`documentation/`](documentation/) directory preserves project-level proposals and narrative records alongside the subsystem engineering files. It currently includes the 13-page Learn Through Discovery Projects Hatchery proposal, *Smartphone Education: Building a Modular Student-Designed Smartphone*, covering the project's educational rationale, technical phases, team structure, goals, and milestone budget.
+The [`documentation/`](documentation/) directory preserves the project record alongside the subsystem engineering files. It includes Hatchery proposals and phase updates, DIGITAL curriculum and mini-project decks, the project budget and bill-of-materials workbook, and organizational records. These originals are grouped by purpose and accompanied by checksums and provenance notes.
 
 ## Repository organization
 

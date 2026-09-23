@@ -27,4 +27,4 @@ The new explanatory READMEs and provenance records identify source material but 
 
 ## Project documentation
 
-The Hatchery proposal under `documentation/proposals/` contains no explicit license statement. It remains attributed to the authors listed on its title page and is not relicensed by its inclusion in this repository.
+No explicit license statement was found in the supplied project-documentation files under `documentation/`, including the proposals, presentations, budget workbook, MEP proposal, or constitution and bylaws. They remain attributed to their authors and organizations and are not relicensed by inclusion in this repository. Embedded third-party images, product information, datasheet excerpts, and linked material may have separate rights and terms.
