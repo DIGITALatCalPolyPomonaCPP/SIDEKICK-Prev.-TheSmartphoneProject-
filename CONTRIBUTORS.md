@@ -8,7 +8,7 @@ This index combines author metadata from the imported source repositories with a
 | Ethan Oliver Wong | [@CondescendingCottageCow](https://github.com/CondescendingCottageCow) | FPGA main board and peripheral board |
 | Anish Chinnakonda | [@anishc-AC](https://github.com/anishc-AC) | Haptics and fingerprint sensor |
 | Angelo Duenas | [@AngeloDuenas](https://github.com/AngeloDuenas) | Haptics and fingerprint sensor |
-| Ethan Trone | [@the-bumbler](https://github.com/the-bumbler) | Flashlight driver |
+| Ethan Trone | [@the-bumbler](https://github.com/the-bumbler) | Flashlight Driver, FIFO Buffer Logic Design, AXI BUS Logic Design|
 | Viren Kumar | [@vurbe](https://github.com/vurbe) | Mechanical/thermal repository and enclosure work |
 | Logan Knip | [@llknip](https://github.com/llknip) | Mechanical enclosure work and ambient-light sensor |
 | Russell Chung | [@ARussellChung](https://github.com/ARussellChung) | Mechanical phone models |
@@ -16,7 +16,7 @@ This index combines author metadata from the imported source repositories with a
 | Oscar Cao |[@CondescendingCottageCow](https://github.com/CondescendingCottageCow) | IMU board iterations |
 | Eryn Chen | [@eryn-chen](https://github.com/eryn-chen) | IMU board iterations |
 | Lisette Santa | Profile not supplied | IMU board iterations |
-| Allen Nguyen | [@Allen2331](https://github.com/Allen2331) | IMU board iterations |
+| Allen Nguyen | [@Allen2331](https://github.com/Allen2331) | IMU, FIFO Buffer Logic Design, AXI BUS Logic Design |
 | Ivan Aguilar-Moreno | [@aguilarmorenoivan](https://github.com/aguilarmorenoivan) | IMU board iterations |
 | Sebastian Salgado | [@Chiparino](https://github.com/Chiparino) | Project contributor; workstream not specified |
 | DIGITAL at Cal Poly Pomona | [@DIGITALatCalPolyPomonaCPP](https://github.com/DIGITALatCalPolyPomonaCPP) | IMU repository and project stewardship |
