@@ -1,6 +1,6 @@
 # SIDEKICK — The Smartphone Project
 
-**SIDEKICK, previously named TheSmartphoneProject, is a student-led effort at DIGITAL @ Cal Poly Pomona to design a modular smartphone around an FPGA-based computing platform.** It treats the phone as one integrated product spanning programmable logic, circuit design, embedded software, operating systems, sensing, user interaction, mechanical design, and thermal engineering.
+**SIDEKICK, previously named TheSmartphoneProject, is DIGITAL @ Cal Poly Pomona's flagship systems-engineering project: a student-designed modular smartphone built around an FPGA-based computing platform.** It treats the phone as one integrated product spanning programmable logic, circuit design, embedded software, operating systems, sensing, user interaction, mechanical design, and thermal engineering.
 
 <p align="center">
   <a href="https://photos.app.goo.gl/fKSVxjnxUvrLaF7E6">
@@ -10,9 +10,23 @@
 
 <p align="center"><em>FPGA smartphone mainboard prototype. <a href="https://photos.app.goo.gl/fKSVxjnxUvrLaF7E6">View the project photo album.</a></em></p>
 
-This repository consolidates the project's previously distributed engineering record. It contains original design files, subsystem iterations, planning documents, curricula, and project updates. It is an archival engineering snapshot—not a claim that every subsystem reached production readiness or that the files currently assemble into a finished phone.
+**Repository status:** This is an archival engineering snapshot. It consolidates original design files, subsystem iterations, planning documents, curricula, and project updates that were previously distributed across multiple repositories and contributor archives. It does not claim that every subsystem reached production readiness or that the files currently assemble into a finished phone.
 
-## Project Definition
+## Executive summary
+
+Technology has always evolved. What has changed is the pace at which innovation reshapes the world around us. Entire industries can now emerge, mature, and reinvent themselves within the span of a student's undergraduate education. Artificial intelligence is reshaping knowledge-based work, robotics is moving from laboratories into homes and industry, and manufacturing is becoming increasingly autonomous.
+
+**The technologies that will define our students' careers have not all been invented yet.**
+
+Industry has responded by becoming increasingly interdisciplinary. The products that define modern society are rarely conceived, developed, or delivered through engineering alone. They emerge from engineering, business, operations, manufacturing, research, and design working toward a common objective.
+
+DIGITAL @ Cal Poly Pomona was created in response to this shift. It does not replace traditional engineering education or the student organizations that apply it through competitions, research, and hands-on work. DIGITAL bridges the space between them by organizing around the process through which ideas become projects. Members investigate unfamiliar problems, research existing solutions, define requirements, evaluate trade-offs, establish scope, build prototypes, test assumptions, document decisions, and communicate across disciplines.
+
+Few products demonstrate the importance of this process more clearly than the smartphone. Its significance comes not simply from replacing the telephone, but from integrating computing, communications, embedded systems, software, industrial design, manufacturing, supply-chain logistics, product management, and business strategy at global scale. SIDEKICK turns that integration challenge into an educational platform: students can specialize in one subsystem while learning how their decisions affect the complete product.
+
+The projects will change. The technologies will change. What remains constant is the framework through which students learn to transform ideas into reality. Ultimately, the true product of DIGITAL is not the prototype; it is the people who leave the organization prepared to help define what comes next.
+
+## Project definition
 
 The project aims to engineer a working, custom-built mobile-device prototype whose central processing and hardware-control functions are implemented with field-programmable logic. Inspired by modern mobile architecture and open-source hardware, the team uses tools including KiCad, SolidWorks, ANSYS, AMD Vivado, and OrCAD to expose parts of the system that are normally hidden inside closed silicon and proprietary product stacks.
 
@@ -20,7 +34,7 @@ The intended phone should be comfortable to hold, intuitive to navigate, respons
 
 As an educational platform, the phone gives students a way to follow a complete system from physical circuits and programmable logic through hardware interfaces, drivers, the operating system, and the user experience. The objective is not only a device, but a reusable foundation for learning, experimentation, repairability, and later product iterations.
 
-## Planned Operational Architecture
+## Planned operational architecture
 
 The system concept separates the FPGA motherboard from modular peripheral hardware. Custom logic moves device data through controller and buffering stages into an AXI-based system fabric, where software drivers expose it to the operating system and user interface.
 
@@ -103,10 +117,8 @@ Licensing is **per subsystem**, not repository-wide. The FPGA/main-board snapsho
 
 ## About DIGITAL @ Cal Poly Pomona
 
-DIGITAL @ Cal Poly Pomona is a student-led, project-based engineering organization created to turn classroom knowledge into hands-on work on complex, meaningful technology. Members learn through research, design, prototyping, integration, iteration, and documentation while collaborating across engineering, computing, design, and operations.
+DIGITAL is intentionally broader than one device, competition, technology, or discipline. Each initiative follows a shared project lifecycle: assess purpose and feasibility; define scope, requirements, risks, roles, and resources; execute and integrate through clear interfaces; document decisions continuously; and conclude with reflection, knowledge transfer, and a deliberate decision about what follows.
 
-Systems engineering is the organization's foundation. It gives members a view of the complete product before they specialize, connecting project requirements, interfaces, schedules, technical teams, and organizational constraints. SIDEKICK is DIGITAL's flagship reference implementation—not its only endpoint—and demonstrates how modular subsystems can be understood individually and integrated into one coherent system.
+Systems engineering is the organization's foundation. It connects the complete product architecture with the technical and operational teams needed to deliver it, while allowing members to develop depth in hardware, software, mechanical design, thermal engineering, product design, business, or operations. SIDEKICK is DIGITAL's flagship reference implementation—not its fixed endpoint—and provides a concrete system through which this model can be tested and improved.
 
-DIGITAL measures success beyond whether a device reaches commercial readiness. The organization prioritizes clear design decisions, robust interfaces, transferable skills, knowledge preservation, and the growth of students into confident interdisciplinary engineers and leaders. The goal is not merely to build projects, but to develop the people capable of leading complex technical efforts long after a single project concludes.
-
-Read the archived [DIGITAL project proposal for Maximizing Engineering Potential](documentation/organization/DIGITAL_CPP_Project_Proposal_MEP.docx) for the organization's mission, values, project lifecycle, and structure.
+DIGITAL measures success beyond commercial readiness. Clear design decisions, robust interfaces, useful documentation, transferable skills, and member growth are outcomes in their own right. Read the archived [DIGITAL project proposal for Maximizing Engineering Potential](documentation/organization/DIGITAL_CPP_Project_Proposal_MEP.docx) for the organization's mission, values, project lifecycle, and structure.
