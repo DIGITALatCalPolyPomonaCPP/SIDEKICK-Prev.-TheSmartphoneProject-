@@ -101,6 +101,12 @@ No authorship is transferred by this consolidation. Original Git history remains
 
 Licensing is **per subsystem**, not repository-wide. The FPGA/main-board snapshot includes its original GNU GPL v3 license. No explicit license file was present in the other source repositories at the recorded commits. See [LICENSES.md](LICENSES.md) before reusing or redistributing any material.
 
-## About DIGITAL
+## About DIGITAL @ Cal Poly Pomona
 
-DIGITAL is a cross-disciplinary student product-development organization at Cal Poly Pomona. SIDEKICK reflects the core challenge of integrated product work: many specialized teams contributing to one coherent system.
+DIGITAL @ Cal Poly Pomona is a student-led, project-based engineering organization created to turn classroom knowledge into hands-on work on complex, meaningful technology. Members learn through research, design, prototyping, integration, iteration, and documentation while collaborating across engineering, computing, design, and operations.
+
+Systems engineering is the organization's foundation. It gives members a view of the complete product before they specialize, connecting project requirements, interfaces, schedules, technical teams, and organizational constraints. SIDEKICK is DIGITAL's flagship reference implementation—not its only endpoint—and demonstrates how modular subsystems can be understood individually and integrated into one coherent system.
+
+DIGITAL measures success beyond whether a device reaches commercial readiness. The organization prioritizes clear design decisions, robust interfaces, transferable skills, knowledge preservation, and the growth of students into confident interdisciplinary engineers and leaders. The goal is not merely to build projects, but to develop the people capable of leading complex technical efforts long after a single project concludes.
+
+Read the archived [DIGITAL project proposal for Maximizing Engineering Potential](documentation/organization/DIGITAL_CPP_Project_Proposal_MEP.docx) for the organization's mission, values, project lifecycle, and structure.
