@@ -1,8 +1,52 @@
 # SIDEKICK — The Smartphone Project
 
-SIDEKICK was a student-led effort at **DIGITAL @ Cal Poly Pomona** to explore a smartphone as a complete, cross-disciplinary product rather than a single circuit board. The project centered on an FPGA-based main board and grew into parallel electrical, sensing, haptics, mechanical, and thermal workstreams owned by different student contributors.
+**SIDEKICK, previously TheSmartphoneProject, is a student-led effort at DIGITAL @ Cal Poly Pomona to design a modular smartphone around an FPGA-based computing platform.** It treats the phone as one integrated product spanning programmable logic, circuit design, embedded software, operating systems, sensing, user interaction, mechanical design, and thermal engineering.
 
-This repository consolidates the project's previously distributed engineering record. It is an archival snapshot of the original repositories—not a claim that every subsystem reached production readiness or that the files form a buildable final phone.
+This repository consolidates the project's previously distributed engineering record. It contains original design files, subsystem iterations, planning documents, curricula, and project updates. It is an archival engineering snapshot—not a claim that every subsystem reached production readiness or that the files currently assemble into a finished phone.
+
+## Project definition
+
+The project aims to engineer a working, custom-built mobile-device prototype whose central processing and hardware-control functions are implemented with field-programmable logic. Inspired by modern mobile architecture and open-source hardware, the team uses tools including KiCad, SolidWorks, ANSYS, AMD Vivado, and OrCAD to expose parts of the system that are normally hidden inside closed silicon and proprietary product stacks.
+
+The intended phone should be comfortable to hold, intuitive to navigate, responsive under real use, and efficient enough for sustained daily operation. Success is therefore broader than a booting circuit board: the project pairs user evaluation of ergonomics, navigation, and responsiveness with engineering measurements such as clock speed, bus bandwidth, screen-on time, battery discharge, component efficiency, data integrity, latency, and thermal behavior.
+
+As an educational platform, the phone gives students a way to follow a complete system from physical circuits and programmable logic through hardware interfaces, drivers, the operating system, and the user experience. The objective is not only a device, but a reusable foundation for learning, experimentation, repairability, and later product iterations.
+
+## Planned operational architecture
+
+The system concept separates the FPGA motherboard from modular peripheral hardware. Custom logic moves device data through controller and buffering stages into an AXI-based system fabric, where software drivers expose it to the operating system and user interface.
+
+```mermaid
+flowchart LR
+    A[Peripheral daughterboard<br/>sensors and actuators] --> B[Custom SPI and GPIO logic]
+    B --> C[Hardware FIFO buffers]
+    C --> D[AXI interconnect and<br/>memory-mapped registers]
+    E[FPGA processing core<br/>and programmable logic] --> B
+    E --> D
+    D --> F[OS kernel and drivers]
+    F --> G[Touch UI, telemetry,<br/>audio and haptic feedback]
+```
+
+Representative system flows include:
+
+- **Boot and biometric unlock:** power-rail bring-up, FPGA bitstream loading, kernel and driver initialization, fingerprint transfer, authentication, haptic confirmation, and UI unlock.
+- **Continuous sensor telemetry:** IMU, temperature, ambient-light, and microphone sampling; serial-to-parallel conversion; cross-clock FIFO buffering; AXI transfer; and UI updates.
+
+The current systems plan treats a peripheral-to-memory latency below 15 ms, lossless sensor-packet handling at the target sampling load, and passive heat routing away from user touchpoints as design requirements. These are project targets documented in the planning workspace, not certifications of the archived hardware.
+
+## Development approach
+
+The project follows a systems-engineering cycle:
+
+1. define the product, user experience, and measurable requirements;
+2. decompose the phone into coordinated electrical, computing, software, mechanical, and thermal workstreams;
+3. select components and tools, establish interfaces, and procure hardware;
+4. design and prototype subsystems independently;
+5. integrate through defined buses, connectors, drivers, and mechanical boundaries;
+6. test electrical, performance, power, thermal, usability, and integration risks; and
+7. evaluate readiness, document results, and carry lessons into the next iteration.
+
+The public [TheSmartphoneProject workspace](https://successful-twill-84f.notion.site/TheSmartphoneProject-3e3169473d7780c18205ee25701566bf) contains the living planning record, including the product definition, requirements, work breakdown, use-case material, sequence diagrams, activity diagrams, team plans, and subsystem task tracking. Some linked workspace records may have separate access controls.
 
 ## System overview
 
