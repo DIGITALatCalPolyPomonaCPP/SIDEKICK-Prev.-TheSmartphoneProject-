@@ -24,3 +24,7 @@ Public availability on GitHub does not by itself grant a general license to copy
 ## Consolidation metadata
 
 The new explanatory READMEs and provenance records identify source material but do not relicense it or alter its original notices.
+
+## Project documentation
+
+The Hatchery proposal under `documentation/proposals/` contains no explicit license statement. It remains attributed to the authors listed on its title page and is not relicensed by its inclusion in this repository.

@@ -19,6 +19,10 @@ This repository consolidates the project's previously distributed engineering re
 | [STM32 controller](subsystems/stm32-controller/) | STM32G431-based control and support electronics | KiCad design, component models/libraries, and STM32CubeIDE firmware project |
 | [Heat sensor](subsystems/heat-sensor/) | Temperature/heat-sensing circuit exploration | KiCad schematic project archive |
 
+## Project documentation
+
+The [`documentation/`](documentation/) directory preserves project-level proposals and narrative records alongside the subsystem engineering files. It currently includes the 13-page Learn Through Discovery Projects Hatchery proposal, *Smartphone Education: Building a Modular Student-Designed Smartphone*, covering the project's educational rationale, technical phases, team structure, goals, and milestone budget.
+
 ## Repository organization
 
 Each subsystem has:
